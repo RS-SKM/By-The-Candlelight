@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bec Testing/MainMenu.unity
+    guid: a1b68182db80dfb4fa5e9dd68c48d3f2
+  - enabled: 1
+    path: Assets/Scenes/ByTheCandlelight.unity
+    guid: 4063a5f91d4793c43bfb20c2dd73797c
+  - enabled: 1
+    path: Assets/Scenes/Bec Testing/LooseScreen.unity
+    guid: e375b3e379d54534991e9009862808b0
   m_configObjects: {}
