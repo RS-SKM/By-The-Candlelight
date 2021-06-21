@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Wind point
+  - WindEnemy
+  - HandPlayer
+  - CandleLight
   layers:
   - Default
   - TransparentFX
