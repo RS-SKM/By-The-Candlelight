@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class GameMaster : MonoBehaviour
 {
-
 	float currentTime = 0f;
     float startingTime = 10f;
     
@@ -30,6 +29,7 @@ public class GameMaster : MonoBehaviour
 
         }
     }
+
 
 }
 
