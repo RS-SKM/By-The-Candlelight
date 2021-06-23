@@ -4,26 +4,11 @@ using UnityEngine;
 
 public class DestroyOnCollision : MonoBehaviour
 {
-     /*   void OnCollisionEnter()
+      
+ void OnCollisionEnter2D (Collision2D other)
         {
             Debug.Log("We hit something");
-        }
-
-
-        private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.CompareTag("WindEnemy"))
-        Destroy(collision.gameObject);
-    } 
-
-*/
-    
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("WindEnemy"))
-        {
             Destroy(other.gameObject);
         }
-    }
     
 }
