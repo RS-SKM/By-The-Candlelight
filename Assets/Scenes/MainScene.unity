@@ -320,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256106246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 6.45, z: 0}
+  m_LocalPosition: {x: 2.06, y: -2.45, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1194,7 +1194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 549, y: 296}
+  m_AnchoredPosition: {x: 356, y: 192}
   m_SizeDelta: {x: 79.9051, y: 38.3078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1838220052
@@ -1585,6 +1585,10 @@ PrefabInstance:
       propertyPath: candle
       value: 
       objectReference: {fileID: 1528603959}
+    - target: {fileID: 6101479211597710586, guid: 336fad499068b6541a0ee25d401ff60c, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8411554773959050155, guid: 336fad499068b6541a0ee25d401ff60c, type: 3}
       propertyPath: m_Name
       value: Wind

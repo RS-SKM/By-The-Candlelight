@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class WindSpawn : MonoBehaviour
 {
-    public float Timer = 0.3f;
+    public float Timer = 0.5f;
     public GameObject windPrefab;
 
-    void Start()
-    {
-        SpawnWind();
-    }
-
+   
     void Update()
     {
         Timer -= Time.deltaTime;
         if(Timer <= 0f)
         {
-            SpawnWind();
-            Timer = 0.3f;
+            SpawnWindRight();
+            SpawnWindLeft();
+            Timer = 0.5f;
         }
     }
 
-    void SpawnWind()
+    void SpawnWindLeft()
     {
-        Vector3 position = new Vector3(Random.Range(-10.0F, 10.0F), 6, Random.Range(-10.0F, 10.0F));
-        Instantiate(windPrefab, position, Quaternion.identity);
+        Vector3 positionLeft = new Vector3(-15.0F, Random.Range(-6f, 6f), Random.Range(-10.0F, 10.0F));
+        Instantiate(windPrefab, positionLeft, Quaternion.identity);
+    }
+
+    void SpawnWindRight()
+    {
+        Vector3 positionRight = new Vector3(15.0F, Random.Range(-6f, 6f), Random.Range(-10.0F, 10.0F));
+        Instantiate(windPrefab, positionRight, Quaternion.identity);
     }
 }

@@ -25,7 +25,7 @@ public class GameMaster : MonoBehaviour
         if(currentTime <=0) 
         {
             currentTime = 0;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
         }
     }
 
