@@ -7,8 +7,7 @@ public class DestroyOnCollision : MonoBehaviour
       
  void OnCollisionEnter2D (Collision2D other)
         {
-            Debug.Log("We hit something");
+            Debug.Log("Wind Blocked");
             Destroy(other.gameObject);
         }
-    
 }

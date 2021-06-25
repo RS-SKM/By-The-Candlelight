@@ -5,10 +5,9 @@ using UnityEngine;
 public class WindMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float moveSpeed = 5;
+    public float moveSpeed = 10;
     public Transform candle;
     private Vector2 movement;
-    
 
     void Start()
     {
